@@ -20,7 +20,7 @@ RUN adduser -DH dataex && addgroup dataex dataex
 
 USER dataex
 
-ENTRYPOINT ["java", "-jar", "dataexchange.jar"]
+ENTRYPOINT ["java", "-jar", "/app/dataexchange.jar"]
 
 EXPOSE 8080
 
