@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   data-exchange:
   - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-06-06T08:37:09.069331484Z"
+    description: Data exchange service is used to exchange the data between connectors
+    digest: ed4c60559585262b39333359e980eb4e08766a5bab1b0fc0ed18828db2513bb6
+    name: data-exchange
+    sources:
+    - https://github.com/eclipse-tractusx/data-exchange-test-service
+    type: application
+    urls:
+    - https://github.com/catenax-ng/tx-data-exchange-test-service/releases/download/data-exchange-1.0.0/data-exchange-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
     appVersion: 0.1.9
     created: "2023-05-02T08:07:18.234124906Z"
     description: Data exchange service is used to exchange the data between connectors
@@ -121,4 +133,4 @@ entries:
     urls:
     - https://github.com/catenax-ng/tx-data-exchange-test-service/releases/download/data-exchange-0.1.0/data-exchange-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-02T08:07:18.234168707Z"
+generated: "2023-06-06T08:37:09.069594482Z"
